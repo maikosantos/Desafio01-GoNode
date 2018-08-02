@@ -21,12 +21,10 @@ app.get("/", (req, res) => {
 });
 
 app.get("/major", (req, res) => {
-  //console.log(req.query.nome);
   res.render("major", { nome: req.query.nome });
 });
 
 app.get("/minor", (req, res) => {
-  //console.log(req.query.nome);
   res.render("minor", { nome: req.query.nome });
 });
 
